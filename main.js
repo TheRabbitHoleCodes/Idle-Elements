@@ -1,3 +1,5 @@
+git clone https://github.com/username/username.github.io
+
 var v = 1.0;
 var player = {
     money: { water: 0, fire: 0, aire: 0, earth: 0 },
