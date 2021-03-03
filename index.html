@@ -19,6 +19,21 @@
                 <div id="waterBar" class="bar"></div>
             </div><div id="waterCount" class="count" style="color: blue;"></div><div id="waterButton" class="button" style="background: blue;" onclick="buyUpgrade('water')"><div>Increase Click Strength</div><div>Level 0</div><div>Price 10</div></div><div id="waterReduce" class="button hidden" style="background: blue;width:100px" onclick="reduceProd('water')">Break Water</div>
         </div>
+    <div id="fireDiv" style="padding-bottom:10px; padding-top:10px">
+        <div class="progress">
+                <div id="fireBar" class="bar"></div>
+            </div>
+            <div id="fireCount" class="count" style="color: red;"></div>
+            <div id="fireButton" style="background: red;" class="button" onclick="buyUpgrade('fire')"><div>Increase Click Strength</div><div>Level 0</div><div>Price 20</div></div>
+            <div id="fireReduce" class="button hidden" style="background: red;width:100px;" onclick="reduceProd('fire')">Break Fire</div>
+        </div>
     
-    
+        <div id="airDiv" class="hidden" style="padding-bottom:10px; padding-top:10px">
+            <div style="margin-bottom:10px">
+                <div class="progress">
+                    <div id="airBar" class="bar"></div>
+                </div><div id="airCount" class="count" style="color: sky blue;"></div>
+            </div>
+            <div id="airButton0" style="background: sky blue;" class="button" onclick="buyUpgrade('air', 0)"><div>Increase Click Strength</div><div>Level 0</div><div>Price 40</div><div></div></div><div id="airButton" style="background: sky blue;">
+            </div>
 </html>
