@@ -8,4 +8,17 @@
     <meta charset="utf-8" />
     <title>Idle Elements</title>
 </head>
+    <body onload="init()">
+    <div class="button switch active" onclick="switchTab('Elements', 0)">Elements</div><div class="button hidden switch" onclick="switchTab('Shop', 1)">Shop</div><div class="button switch" onclick="switchTab('Settings', 2)">Settings</div><div class="button switch hidden" onclick="switchTab('Stats', 3)">Stats</div><br>
+    <div id="tabElements" class="tab">
+        <div style="width:100%;">
+            <div class="count hidden extra" id="moneyCountElements"></div><div class="count hidden extra" id="supriseElement"></div>
+        </div>
+        <div id="waterDiv" style="padding-bottom:10px; padding-top:10px">
+            <div class="progress" style="cursor:pointer">
+                <div id="waterBar" class="bar"></div>
+            </div><div id="waterCount" class="count" style="color: blue;"></div><div id="waterButton" class="button" style="background: blue;" onclick="buyUpgrade('water')"><div>Increase Click Strength</div><div>Level 0</div><div>Price 10</div></div><div id="waterReduce" class="button hidden" style="background: blue;width:100px" onclick="reduceProd('water')">Break Water</div>
+        </div>
+    
+    
 </html>
